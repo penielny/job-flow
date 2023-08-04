@@ -1,6 +1,6 @@
 {
     "name": "job-flow",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A seamless job queue management system for efficient task processing and workload distribution.",
     "main": "index.js",
     "scripts": {
