@@ -11,6 +11,9 @@ async function processJob(job) {
 const cachePath=  './jobflow.json'
 // Initialize the JobQueue and start the TCP server
 const jobQueue = new JobQueue(cachePath);
+
+jobQueue.setProcessFunction(processJob)
+
 jobQueue.init();
 
 // Create a Worker instance
