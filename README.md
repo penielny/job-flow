@@ -74,4 +74,4 @@ Special thanks to [list of contributors or libraries you've used].
 
 ---
 
-Designed with :heart: by Your Name. Enjoy using JobFlow!
+Designed with :heart: by Peniel Nyinkau. Enjoy using JobFlow!
