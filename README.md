@@ -34,8 +34,20 @@ npm install job-flow
 ```javascript
 const { JobQueue, Worker } = require('job-flow');
 
-// Initialize the JobQueue and start the TCP server
-const jobQueue = new JobQueue();
+// the path to localy cache queue state 
+const cachedJobQueue = './videoQueue.json';
+
+const jobQueue = new JobQueue(cachedJobQueue)
+
+// function to be executed for each job in the queue
+async function videoTranscode(job) {
+    console.log(job.data); //{ filepath: './tasks/data.txt' }
+}
+
+// binding the job to the queue
+jobQueue.setProcessFunction(videoTranscode)
+
+// starting the queue 
 jobQueue.init();
 
 // Create a Worker instance
