@@ -1,0 +1,51 @@
+{
+    "name": "job-flow",
+    "version": "1.0.0",
+    "description": "A seamless job queue management system for efficient task processing and workload distribution.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/penielny/job-flow"
+    },
+    "keywords": [
+        "job",
+        "queue",
+        "task",
+        "processing",
+        "workflow",
+        "distributed",
+        "background",
+        "batch"
+    ],
+    "author": "Peniel Nyinaku",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/penielny/job-flow/issues"
+    },
+    "homepage": "https://github.com/penielny/job-flow#readme",
+    "dependencies": {
+        "events": "^3.3.0",
+        "fs-extra": "^10.0.0",
+        "net": "^1.0.2"
+    },
+    "devDependencies": {
+        "jest": "^27.5.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "directories": {
+        "lib": "lib"
+    },
+    "files": [
+        "lib"
+    ],
+    "private": false,
+    "readme": "README.md"
+}
