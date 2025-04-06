@@ -26,7 +26,7 @@ JobFlow is a powerful and efficient Job Queue Management System that simplifies 
 Install JobFlow via npm:
 
 ```bash
-npm install job-flow
+yarn add job-flow
 ```
 
 ## Usage
